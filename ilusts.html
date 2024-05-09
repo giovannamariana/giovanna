@@ -1,0 +1,56 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          fontSize: {
+            'titulo': '8vh',
+            'subtitulo': '4vh',
+            'conteudo': '2vh',
+          },
+          container: {
+            center: true,
+          },
+          extend: {
+            height: {
+              'iconify': '10vh',
+            },
+            colors: {
+              cereja: "#C62B66",
+              ameixa: "#D0A7F7",
+              cinza: "#74629C",
+              lavanda: "#E4E6F2",
+              rose: "#F7D0D8",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+    <body class="text-conteudo leading-tight tracking-tighter bg-cinza">
+        <div class="container w-[68%]">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="grid gap-4">
+                    <img class="bg-white h-auto max-w-full rounded-lg" src="assets/illust/brbrAnchor.png">
+                    <img class="h-auto max-w-full rounded-lg" src="assets/illust/brbrsquidrelease.png">
+                </div>
+
+                <div class="grid gap-4">
+                    <img class="bg-white h-auto max-w-full rounded-lg" src="assets/illust/brbrMiniAnchor.png">
+                    <img class="h-auto max-w-full rounded-lg" src="assets/illust/rua.png">
+                </div>
+
+                <div class="grid gap-4">
+                    <img class="h-auto max-w-full rounded-lg" src="assets/illust/hirari.png">
+                    <img class="bg-white h-auto max-w-full rounded-lg" src="assets/illust/brbrJelly.png">
+                </div>
+            </div>
+        </div>
+
+    </body>
+  </html>
